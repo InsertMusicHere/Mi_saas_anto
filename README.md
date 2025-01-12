@@ -1,36 +1,66 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# AI SaaS Platform with LLMs 🌐🤖
 
-## Getting Started
+Welcome to the repository for our **AI SaaS Platform**, an innovative solution packed with **Two powerful AI tools**, all powered by cutting-edge technologies like **Next.js 13 App Router**, **React**, **TailwindCSS**, **Prisma**, and more. This platform is designed to provide a seamless user experience while delivering exceptional functionality. 
 
-First, run the development server:
+Note: I took help of this video tutorial: https://www.youtube.com/watch?v=ffJ38dBzrlY, and the idea is to come up with a product of my own (WIP!! 🚀)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🌟 **Features**
+### 1. **Authentication with Clerk**
+   - Robust, secure, and user-friendly authentication system.
+   - Supports multiple login methods and ensures a safe environment for users.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 2. **Dashboard**
+   - A centralized interface for users to access all the AI tools.
+   - Clean, intuitive design for efficient navigation and user management.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 3. **AI Tools**
+   - **Conversation AI UI**: Engage users with an intuitive conversation interface.
+   - **Conversation AI API (Powered by OpenAI)**: Delivers intelligent and context-aware responses.
+   - **Code Generation AI (Powered by OpenAI)**: Automates code creation to save time and effort.
 
-## Learn More
+### 4. **API Limit UI Counter**
+   - Real-time tracking of API usage.
+   - Ensures users stay informed about their subscription and usage limits.
 
-To learn more about Next.js, take a look at the following resources:
+### 5. **Subscription & Payment Integration**
+   - **Stripe Integration** for seamless subscription management.
+   - Supports multiple payment options and handles billing efficiently.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 6. **Error Handling & Customer Support**
+   - Integrated with **Crisp** to provide robust error handling.
+   - Real-time support for users ensures a smooth experience.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### 7. **Landing Page**
+   - Professional and engaging landing page to showcase the platform.
+   - Designed to convert visitors into subscribers.
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🚀 **Tech Stack**
+- **Framework:** Next.js 13 App Router
+- **Frontend:** React, TailwindCSS
+- **Backend:** Prisma, MySQL
+- **Authentication:** Clerk
+- **Payments:** Stripe
+- **Customer Support:** Crisp
+- **AI APIs:** OpenAI
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 📚 **Getting Started**
+
+### Prerequisites
+- Node.js (v16 or later)
+- MySQL database
+- Stripe account for payments
+- Clerk account for authentication
+- OpenAI API key for AI functionalities
+
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/ai-saas-platform.git
+   cd ai-saas-platform
+   npm run dev
